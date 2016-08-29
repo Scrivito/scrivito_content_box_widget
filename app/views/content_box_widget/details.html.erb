@@ -1,0 +1,7 @@
+<%= scrivito_details_for t('scrivito_content_box_widget.details.background_color', default: 'Background Color') do %>
+  <%= scrivito_tag :div, widget, :background_color, data: {colors_list: widget.scrivito_selectable_color_classes} %>
+<% end %>
+
+<%= scrivito_details_for t('scrivito_content_box_widget.details.styles', default: 'Styles') do %>
+  <%= scrivito_tag :div, widget, :styles, data: {multi_select_list: widget.scrivito_selectable_style_classes} %>
+<% end %>
