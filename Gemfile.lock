@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_content_box_widget (0.0.1)
+    scrivito_content_box_widget (0.1.0)
       scrivito_sdk
 
 GEM
