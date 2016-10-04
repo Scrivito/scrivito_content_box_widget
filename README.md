@@ -46,7 +46,7 @@ Using advance editors, you can define the selectable classes by adding a class m
 ```ruby
   class Obj < Scrivito::BasicObj
     ...
-    def scrivito_selectable_style_classes
+    def self.scrivito_selectable_style_classes
       ['drop_shadow','margin_top','move_left','highlight', 'rounded']
     end
     ...
